@@ -1,6 +1,6 @@
 # DES Encryption Web Implementation
 
-A simple web-based application designed to demonstrate the working principles of the **Data Encryption Standard (DES)** algorithm. This project was created as a **Cryptography course assignment** to understand symmetric key encryption.
+A simple web-based application designed to demonstrate the working principles of the **Data Encryption Standard (DES)** algorithm. This project was created as a College Project to understand symmetric key encryption.
 
 ## Key Features
 
