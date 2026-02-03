@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #d4ebf8, #1f509a);
+  font-family: "Nunito", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+  width: 80%;
+}
+
+.login-title {
+  text-align: center;
+  color: #0a3981;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.login-image img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.login-form {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+  color: #0a3981;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #0a3981;
+  border-color: #0a3981;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #1f509a;
+  border-color: #0a3981;
+}
+
+.alert-danger {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+a {
+  color: #1f509a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

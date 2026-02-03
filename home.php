@@ -10,66 +10,6 @@
     <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style>
-        .navbar {
-    transition: all 0.3s ease;
-    background: transparent;
-}
-
-.navbar.scrolled {
-    background:rgb(10, 57, 129, 0.8);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-}
-
-        .heading {
-        background: linear-gradient(135deg, #0A3981 0%, #2a5298 100%);
-        padding: 3rem;
-        padding-top: 7rem;
-        width: 100%;
-        height: 80vh;
-        margin-top: -78px;
-        border-radius: 0px 0px 20px 20px;
-        }
-
-        .heading .animated {
-            animation: up-down 2s ease-in-out infinite alternate-reverse both;
-        }
-
-        @keyframes up-down {
-            0% {
-                transform: translateY(10px);
-            }
-
-            100% {
-                transform: translateY(-10px);
-            }
-        }
-
-
-        .proses {
-            border: #1F509A solid 2px;
-            border-radius: 2rem;
-        }
-
-        .title-ck {
-            position: relative;
-            display: inline-block;
-            padding: 1rem;
-        }
-
-        .title-ck::after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 75%;
-            height: 4px;
-            background-color: #1F509A;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
@@ -250,14 +190,13 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
      AOS.init({
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 1000, // values from 0 to 3000, with step 50ms
+        delay: 0, 
+        duration: 1000, 
      });
     </script>
     </style>
 
 <script>
-// Add this JavaScript code just before the closing </body> tag
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');
     
@@ -269,10 +208,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Initial check
     updateNavbar();
     
-    // Add scroll event listener
     window.addEventListener('scroll', updateNavbar);
 });
 </script>

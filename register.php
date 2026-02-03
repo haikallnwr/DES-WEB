@@ -30,64 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #D4EBF8, #1F509A);
-            font-family: "Nunito", sans-serif;
-        }
-
-        .register-form {
-            width: 600px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 10px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .register-form h2 {
-            color: #0A3981;
-            margin-bottom: 20px;
-            font-weight: bold;
-            text-align: center;
-        }
-
-        .btn-primary {
-            background: #0A3981;
-            border-color: #0A3981;
-            transition: all 0.3s ease;
-
-        }
-
-        .btn-primary:hover {
-            background: #1F509A;
-            border-color: #0A3981;
-        }
-
-        .alert-info {
-            font-size: 14px;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .form-control {
-            background-color: rgba(255, 255, 255, 0.2);
-            border-radius: 10px;
-        }
-
-        a {
-            color: #1F509A;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/register.css">
 </head>
 <body>
     <div class="register-form">

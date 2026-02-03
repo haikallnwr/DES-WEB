@@ -48,97 +48,9 @@ if (isset($_GET['logout'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/enkripsiFile.css">
     <link rel="stylesheet" href="CSS/home.css">
-    <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-            background: linear-gradient(135deg, #0A3981 0%, #2a5298 100%);
-            min-height: 100vh;
-            color: white;
-        }
-
-        .navbar {
-            background:rgb(10, 57, 129, 0.8);
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-        }
-
-        .dropdown-item:hover {
-            background: rgba(30, 60, 114, 0.1);
-            color: #1e3c72;
-        }
-
-        .card {
-            background: rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(10px);
-            border: none;
-            padding: 1rem;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border-radius: 10px;
-            color: white;
-        }
-
-        .form-control {
-            background: rgba(255, 255, 255, 0.2);
-            border: none;
-            color: white;
-        }
-
-        .form-control:focus {
-            background: rgba(255, 255, 255, 0.3);
-            color: white;
-            box-shadow: none;
-        }
-
-        .form-label {
-            color: white;
-            font-weight: 600;
-        }
-
-        .btn-warning {
-            background: #0A3981;
-            border: none;
-            font-weight: 600;
-            padding: 10px 25px;
-            transition: all 0.3s ease;
-        }
-
-        .btn-warning:hover {
-            background: #0A3981;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgb(10, 57, 129, 0.3);
-        }
-
-        .btn-secondary {
-            background: #E38E49;
-            border: none;
-            font-weight: 600;
-            padding: 10px 25px;
-            transition: all 0.3s ease;
-        }
-
-        .btn-secondary:hover {
-            background:rgb(219, 127, 52);
-            transform: translateY(-2px);
-        }
-
-        .title-ck {
-            position: relative;
-            display: inline-block;
-            padding: 1rem;
-        }
-
-        .title-ck::after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 75%;
-            height: 4px;
-            background-color: #ffff;
-            text-align: center;
-        }
-    </style>
+    
 </head>
 <body>
 <nav class="navbar navbar-expand-lg p-3 sticky-top">

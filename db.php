@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $db = "db_desweb";
-$user = "root";  // Username database
-$pass = "";      // Password database (kosong jika default)
+$user = "root";  
+$pass = "";      
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
