@@ -1,3 +1,7 @@
+/* =========================================
+   AUTH.CSS - Login & Register Pages
+   ========================================= */
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -5,15 +9,21 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #d4ebf8, #1f509a);
-  font-family: "Nunito", sans-serif;
 }
 
+/* Layout Container */
 .login-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 6rem;
   width: 80%;
+}
+
+.login-image img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .login-title {
@@ -24,27 +34,32 @@ body {
   margin-bottom: 1rem;
 }
 
-.login-image img {
-  height: 350px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.login-form {
-  flex: 1;
+/* Form Styles */
+.login-form,
+.register-form {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.login-form h2 {
+.login-form {
+  flex: 1;
+}
+
+.register-form {
+  width: 600px;
+}
+
+.login-form h2,
+.register-form h2 {
   color: #0a3981;
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
 }
 
+/* Buttons & Links Specific to Auth */
 .btn-primary {
   background: #0a3981;
   border-color: #0a3981;
@@ -56,17 +71,6 @@ body {
   border-color: #0a3981;
 }
 
-.alert-danger {
-  font-size: 14px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.form-control {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-}
-
 a {
   color: #1f509a;
   text-decoration: none;
@@ -74,4 +78,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Alerts */
+.alert-danger,
+.alert-info {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
 }

@@ -1,0 +1,45 @@
+/* =========================================
+   FEATURES.CSS - Enkripsi & Dekripsi Pages
+   ========================================= */
+
+/* Background khusus halaman fitur */
+body {
+  background: linear-gradient(135deg, #0a3981 0%, #2a5298 100%);
+  color: white;
+}
+
+/* Navbar background khusus halaman fitur */
+.navbar {
+  background: rgb(10, 57, 129, 0.3); /* Transparansi default */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Override Navbar background jika diperlukan (misal di enkripsiFile.css sebelumnya 0.8) */
+.navbar-darker {
+  background: rgb(10, 57, 129, 0.8);
+}
+
+/* Judul dengan garis bawah (Implementasi DES) */
+.title-ck {
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.title-ck::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  height: 4px;
+  background-color: #ffff;
+  text-align: center;
+}
+
+/* Alert Styling di halaman fitur */
+.alert {
+  background-color: rgb(255, 255, 255, 0.7);
+  color: #000; /* Pastikan text terbaca */
+}

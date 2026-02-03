@@ -34,11 +34,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/auth.css">
 </head>
 <body>
     <div class="login-container">
-        <!-- Gambar dengan Teks di Atas -->
         <div class="login-image">
             <div class="login-title text-start">
                 <h1 class="fw-bold fs-2">Data Encryption Standard</h1>
@@ -47,7 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img class="mt-3" src="IMG/SIS2.png" alt="Enkripsi DES">
         </div>
 
-        <!-- Form Login -->
         <div class="login-form">
             <h2>Login</h2>
             <?php if ($message): ?>
