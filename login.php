@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h1 class="fw-bold fs-2">Data Encryption Standard</h1>
                 <hr></hr>
             </div>
-            <img class="mt-3" src="IMG/sis2.png" alt="Enkripsi DES">
+            <img class="mt-3" src="IMG/SIS2.png" alt="Enkripsi DES">
         </div>
 
         <!-- Form Login -->
