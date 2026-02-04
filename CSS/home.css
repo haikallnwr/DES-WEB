@@ -1,8 +1,3 @@
-/* =========================================
-   HOME.CSS - Landing Page Styles
-   ========================================= */
-
-/* Typography Khusus Home */
 .sejarah {
   font-size: 25px;
   font-weight: 900;
@@ -14,7 +9,6 @@
   font-weight: bolder;
 }
 
-/* Section Layouts */
 .heading {
   background: linear-gradient(135deg, #0a3981 0%, #2a5298 100%);
   padding: 3rem;
@@ -44,7 +38,6 @@
   background: linear-gradient(135deg, #0a3981 0%, #2a5298 100%);
 }
 
-/* Navbar Scroll Effect khusus Home */
 .navbar {
   transition: all 0.3s ease;
   background: transparent;
@@ -56,7 +49,6 @@
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Image & Animations */
 .login-img {
   width: 30rem;
 }
@@ -74,13 +66,11 @@
   }
 }
 
-/* Komponen Proses (Diagram) */
 .proses {
   border: #1f509a solid 2px;
   border-radius: 2rem;
 }
 
-/* Judul Section Home (Warna garis bawah beda dengan features) */
 .title-ck {
   position: relative;
   display: inline-block;
